@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"Century Ghotic";
+	line-height:20px;
+	font-size:16px;
+	color:#999;
+}
+
+.topo {
+	background:url(../imagens/barra_topo.png);
+	width:940px;
+	height:160px;
+	border-bottom:10px solid #090;
+	margin:auto;
+}
+
+.logo {
+	float:left;
+	background:url(../imagens/logotipo.png);
+	width:140px;
+	height:80px;
+	position:relative;
+	margin:40px 0 0 15px;
+}
+
+.topo .menu ul {
+	position:relative;
+	float:right;
+	margin:2px 25px 0 100px;
+}
+
+.topo .menu ul li {
+	display:inline;
+	padding:10px 0 0 60px;
+	float:none;
+}
+
+.topo .menu ul li a {
+	color:#0C0;
+	text-decoration:none;
+}
+
+.topo .menu ul li a:hover {
+	text-decoration:underline;
+	color:#0F0;
+}
+
+.topo .menu ul li .active {
+	color:#F90;
+	float:weight:bold;
+}
+
+/* Inicio da Página Inicial */
+
+#fundo_inicial {
+	width:940px;
+	height:872px;
+	margin:10px auto 20px auto;
+	background-color:#FFF;
+}
+
+.box_img1 {
+	background:url(../imagens/foto1.jpg);
+	width:450px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt1 {
+	width:420px;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:15px;
+}
+
+.box_txt1 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font_family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt1 p {
+	text-align:justify;
+}
+
+.box_txt1 a {
+	text-decoration:none;
+	color:#F30;
+}
+
+.box_txt1 a:hover {
+	text-decoration:underline;
+	color:#F60;
+}
+
+.regua {
+	width:900px;
+	margin:auto;
+	border:1px solid #CCC;
+	clear:both;
+}
+
+.grupo_fotos {
+	background:url(../imagens/grupo1.jpg);
+	width:920px;
+	height:250px;
+	margin:auto;
+}
+
+.box_txt2 {
+	width:900px;
+	height:150px;
+	positon:relative;
+	margin:auto;
+}
+
+.box_txt2 h1 {
+	font-size:24px;
+	color:#090;
+	font-weight:bold;
+	font_family:Arial, Helvetica, sans-serif;
+}
+
+.box_txt2 p {
+	text-align:justify;
+}
+
+.rodape {
+	width:940px;
+	height:120px;
+	margin:20px auto;
+	clear:both;
+	background:url(../imagens/rodape.fw.png);
+}
+
+/* Fim da Página Inicial */
+
+/* Inicio da Página Plantas Medicinais */
+
